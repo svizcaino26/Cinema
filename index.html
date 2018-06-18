@@ -159,6 +159,40 @@
           <h2 class='text-center text-uppercase welcome-title'>¡te esperamos!</h2>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 movies-row">
+          <form class="" action="index.html" role="form" method="post">
+            <fieldset>
+              <div class="form-group text-center user-data">
+                <legend>Datos personales</legend>
+                <input class="form-cntrol input-element" type="text" id="nombre" name="nombre" placeholder="Nombre completo">
+                <input class="form-cntrol input-element" type="text" id="email" name="email" placeholder="Correo electronico">
+                <input class="form-cntrol input-element" type="text" id="telefono" name="telefono" placeholder="telefono">
+                <input class="form-cntrol input-element" type="text" id="ciudad" name="ciudad" placeholder="Ciudad">
+              </div>
+              <div class="form-group text-center user-data">
+                <legend>Elige tus categorias favoritas</legend>
+                <input type="checkbox"id="comedia" name="Comedia" value="">
+                <label class="label-class" for="comedia">Comedia</label>
+                <input type="checkbox"id="accion" name="Accion" value="">
+                <label class="label-class" for="accion">Accion</label>
+                <input type="checkbox"id="drama" name="Drama" value="">
+                <label class="label-class" for="drama">Drama</label>
+                <input type="checkbox"id="terror" name="Terror" value="">
+                <label class="label-class" for="terror">Terror</label>
+                <input type="checkbox"id="infantil" name="Infantil" value="">
+                <label class="label-class" for="infantil">Infantil</label>
+              </div>
+              <div class="text-center">
+                <legend class="user-data">Desea recibir correo de nuestro sitio?</legend>
+                <input type="radio" id="si" name="choice" value="">
+                <label class="label-class" for="si">Si</label>
+                <input type="radio" id="no" name="choice" value="">
+                <label class="label-class" for="no">No</label>
+              </div>
+              <div class="text-center">
+                <input class="btn btn-primary form-control btn-save" type="button" id="save-btn" name="save-btn" value="Guardar">
+              </div>
+            </fieldset>
+          </form>
         </div>
       </div>
     </div>
